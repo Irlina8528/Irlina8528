@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поздравляю</title>
+    <script type="text/javascript" src="js/jgallery.min.js?v=2.2.1"></script>
+    <style>
+        audio {
+            position:absolute;
+            left: 350px;
+            top: 10px;
+            }
+        h4,h3 {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            }
+        body {
+            background: #080808 url(media/фон2.png);
+            color: white;; 
+            background-attachment: fixed; 
+            background-size: 100%; 
+            font-family:Arial, Helvetica, sans-serif;
+            }
+    </style>
+</head>
+<body>
+    <h3>С днем рождения, любимая!</h3><br>
+    <h4>Этот сайт я создала специально для тебя<br>
+    Он совсем небольшой, но надеюсь тебе понравится</h4><br>
+    
+    <audio src="media/nervy-dla-teba.mp3" controls></audio>
+    
+    <h4>Давай вспомним пару смешных моментов за этот прекрасный год<br>
+        Нажми на эту кнопку</h4>
+    <h4></h4> <img src="media/под.png">
+
+    <div id="gallery">
+    </div>
+    <script type="text/javascript">
+        document.querySelector('#gallery').appendChild(JGallery.create([{
+            title: 'Images',
+            items: [
+                {
+                    url: 'media/8января.jpg',
+                    thumbUrl: 'media/8января.jpg',
+                    title: '8 января',
+                    hash: 'photo-1'
+                },
+                {
+                    url: 'media/12января.jpg',
+                    thumbUrl: 'media/12января.jpg',
+                    title: '12 января',
+                    hash: 'photo-2'
+                },
+
+                {
+                    url: 'media/7марта.jpg',
+                    thumbUrl: 'media/7марта.jpg',
+                    title: '7 марта',
+                    hash: 'photo-3'
+                },
+                {
+                    url: 'media/7мартаа.jpg',
+                    thumbUrl: 'media/7мартаа.jpg',
+                    title: '7 марта',
+                    hash: 'photo-3'
+                },
+                {
+                    url: 'media/7мартааа.jpg',
+                    thumbUrl: 'media/7мартааа.jpg',
+                    title: '7 марта',
+                    hash: 'photo-3'
+                },
+
+                {
+                    url: 'media/22апреля.jpg',
+                    thumbUrl: 'media/22апреля.jpg',
+                    title: '22 апреля',
+                    hash: 'photo-3'
+                },
+
+                {
+                    url: 'media/8июля.jpg',
+                    thumbUrl: 'media/8июля.jpg',
+                    title: '8 июля',
+                    hash: 'photo-3'
+                },
+                {
+                    url: 'media/9июляя.jpg',
+                    thumbUrl: 'media/9июляя.jpg',
+                    title: '9 июля',
+                    hash: 'photo-3'
+                },
+                {
+                    url: 'media/13июля.jpg',
+                    thumbUrl: 'media/13июля.jpg',
+                    title: '13 июля',
+                    hash: 'photo-3'
+                },
+
+                {
+                    url: 'media/7августа.jpg',
+                    thumbUrl: 'media/7августа.jpg',
+                    title: '7 августа',
+                    hash: 'photo-3'
+                },
+                {
+                    url: 'media/11августа.jpg',
+                    thumbUrl: 'media/11августа.jpg',
+                    title: '11 августа',
+                    hash: 'photo-3'
+                },
+                {
+                    url: 'media/11августаа.jpg',
+                    thumbUrl: 'media/11августаа.jpg',
+                    title: '11 августа',
+                    hash: 'photo-3'
+                },
+                {
+                    url: 'media/19августа.jpg',
+                    thumbUrl: 'media/19августа.jpg',
+                    title: '19 августа',
+                    hash: 'photo-3'
+                },
+
+                {
+                    url: 'media/10ноября.jpg',
+                    thumbUrl: 'media/10ноября.jpg',
+                    title: '10 ноября',
+                    hash: 'photo-3'
+                },
+                {
+                    url: 'media/20ноября.jpg',
+                    thumbUrl: 'media/20ноября.jpg',
+                    title: '20 ноября',
+                    hash: 'photo-3'
+                },
+                {
+                    url: 'media/20ноябряя.jpg',
+                    thumbUrl: 'media/20ноябряя.jpg',
+                    title: '20 ноября',
+                    hash: 'photo-3'
+                },
+
+                {
+                    url: 'media/4декабря.jpg',
+                    thumbUrl: 'media/4декабря.jpg',
+                    title: '4 декабря',
+                    hash: 'photo-3'
+                },
+            ]
+        }]).getElement());
+    </script>
+
+    <img src="media/пз.jpg"><br>
+
+    <video controls="controls" src="media/гиф/lv_0_20220222183125.mp4" width="300" height="300" poster="media/фонн.jpg"></video>
+</body>
+</html>
